@@ -1,5 +1,5 @@
 def prefixos(cadeia):
-    i = 0
+    i = 1
     while(i <= len(cadeia)):
         print(cadeia[:i])
         i += 1
