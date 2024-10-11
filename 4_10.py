@@ -1,0 +1,3 @@
+#Realizado no Interpretador
+
+#a variável "a" e o literal 3 são utilizados como parâmetros reais da função prod, e estão disponíveis a nível global. A função prod também retorna um valor a um escopo global, assim acessível pela função print. X é um parâmetro formal da função prod, e só recebe valor no escopo local da função. Por isso, quando chamado, incorre em um NameError, devido a variável x não estar definida no escopo avaliado.
