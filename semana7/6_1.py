@@ -12,6 +12,11 @@ def exibeIdadesInversa(lista):
     lista.reverse()
     exibeIdades(lista)
 
+def exibeMaximoMinimo(lista):
+    maximo = max(lista)
+    minimo = min(lista)
+    print((maximo, minimo))
+
 def exibeIdadesException(lista):
     lista.pop(0)
     lista.pop()
@@ -44,6 +49,7 @@ if __name__ == '__main__':
     #exibeIdadesInversa(lista)
     #somaValoresLista(lista)
     #numeroIdadesCrit(lista, 15)
-    exibeIdadesException(lista)
-    print(existeDezessete(lista))
+    #exibeIdadesException(lista)
+    #print(existeDezessete(lista))
+    exibeMaximoMinimo(lista)
     
